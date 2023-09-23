@@ -7,3 +7,9 @@
     background color for the whole page 
 */ 
 html {background-color: #23303D}
+/* 
+    style for the body  
+*/ 
+body {
+    font-family: "Trebuchet MS", sans-serif;
+}
