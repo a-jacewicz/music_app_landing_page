@@ -13,3 +13,9 @@ html {background-color: #23303D}
 body {
     font-family: "Trebuchet MS", sans-serif;
 }
+/* 
+    style for paragraphs  
+*/ 
+p {
+    color: white;
+}
