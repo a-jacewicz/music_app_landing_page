@@ -11,29 +11,31 @@ html {background-color: #23303D}
     style for the body  
 */ 
 body {
-    font-family: "Trebuchet MS", sans-serif;
+    padding-top: 50px;
+    padding-right: 64px;
+    padding-bottom: 50px;
+    padding-left: 64px;
 }
 /* 
     style for paragraphs  
 */ 
 p {
+    font-size: 18px;
     color: white;
+    font-family: "Trebuchet MS", sans-serif;
 }
 /*
     style for the headings 
     from: https://www.studytonight.com/css-howtos/how-to-style-a-header-using-css#:~:text=To%20customize%20the%20header%20elements,header%20components%20and%20so%20on.
 */ 
 .header {
-    width: 100%;
-    height: 200px;
     text-align: center;
   }
   /* 
     title 
   */ 
   h1 {
-     padding-top: 50px;
-     font-size: 25px;
+     font-size: 54px;
      font-family: "Georgia", serif;
      color: #FF1CC0;		 
   }	
@@ -41,13 +43,22 @@ p {
     headers 
   */ 
   h2 {
+    font-size: 42px; 
     font-family: "Palatino", serif; 
-    color: #1C3AFF; 
+    color: #4d65ff; 
   }
   /* 
     section headers 
   */ 
   h3 { 
+    font-size: 25px;
     font-family: "Verdana", sans-serif;
     color: #B131FA; 
+  }
+/* 
+    div style 
+ */
+ div {
+    border-top: 5px solid #4A0074;
+    border-bottom: 5px solid #4A0074;
   }
