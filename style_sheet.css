@@ -26,40 +26,36 @@ p {
 }
 /*
     style for the headings 
-    from: https://www.studytonight.com/css-howtos/how-to-style-a-header-using-css#:~:text=To%20customize%20the%20header%20elements,header%20components%20and%20so%20on.
 */ 
-.header {
-    text-align: left;
-  }
-  /* 
-    title 
-  */ 
-  h1 {
-    text-align: center;
-    font-size: 54px;
-    font-family: "Georgia", serif;
-    color: #FF1CC0;		 
-  }	
-  /* 
-    headers 
-  */ 
-  h2 {
-    font-size: 42px; 
-    font-family: "Palatino", serif; 
-    color: #4d65ff; 
-  }
-  /* 
-    section headers 
-  */ 
-  h3 { 
-    font-size: 25px;
-    font-family: "Verdana", sans-serif;
-    color: #B131FA; 
-  }
+/* 
+  title 
+*/ 
+h1 {
+  text-align: center;
+  font-size: 54px;
+  font-family: "Georgia", serif;
+  color: #FF1CC0;		 
+}	
+/* 
+  headers 
+*/ 
+h2 {
+  font-size: 42px; 
+  font-family: "Palatino", serif; 
+  color: #4d65ff; 
+}
+/* 
+  section headers 
+*/ 
+h3 { 
+  font-size: 25px;
+  font-family: "Verdana", sans-serif;
+  color: #B131FA; 
+}
 /* 
     div style 
  */
- div {
-    border-top: 5px solid #4A0074;
-    border-bottom: 5px solid #4A0074;
-  }
+div {
+  /* border-top: 5px solid #4A0074; */
+  border-bottom: 5px solid #4A0074;
+}
