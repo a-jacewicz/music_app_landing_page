@@ -29,15 +29,16 @@ p {
     from: https://www.studytonight.com/css-howtos/how-to-style-a-header-using-css#:~:text=To%20customize%20the%20header%20elements,header%20components%20and%20so%20on.
 */ 
 .header {
-    text-align: center;
+    text-align: left;
   }
   /* 
     title 
   */ 
   h1 {
-     font-size: 54px;
-     font-family: "Georgia", serif;
-     color: #FF1CC0;		 
+    text-align: center;
+    font-size: 54px;
+    font-family: "Georgia", serif;
+    color: #FF1CC0;		 
   }	
   /* 
     headers 
