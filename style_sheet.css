@@ -11,7 +11,7 @@ html {background-color: #17222c}
     style for the body  
 */ 
 body {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-right: 64px;
     padding-bottom: 50px;
     padding-left: 64px;
@@ -81,6 +81,6 @@ iframe {
   logo image div 
 */ 
 #logo {
-  width: 14%; 
+  width: 12%; 
   height: auto;
 }
