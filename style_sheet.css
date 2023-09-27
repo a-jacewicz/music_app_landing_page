@@ -80,9 +80,7 @@ iframe {
 /*
   logo image div 
 */ 
-#logo {
-  padding-top: 5px;
-  padding-left: 5px; 
-  width: 50px; 
-  height: 15px;
+#logo { 
+  width: 14%; 
+  height: auto;
 }
