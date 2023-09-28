@@ -56,7 +56,6 @@ h3 {
     div style 
  */
 div {
-  /* border-top: 5px solid #4A0074; */
   border-bottom: 5px solid #4A0074;
 }
 /* 
@@ -85,9 +84,6 @@ div {
   color: #6c80ff;
   font-weight: bold;
 }
-/* .nav-item:hover {
-  background-color: white;
-} */
 .nav-item:hover a {
   font-size: 32px;
   color: #FF1CC0;
@@ -112,4 +108,11 @@ iframe {
   display: flex;
   flex-direction: column;
   display: inline-block;
+}
+/* 
+  ad banner style 
+*/ 
+#ad_banner {
+  width: 50%;
+  height: auto;
 }
