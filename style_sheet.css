@@ -87,6 +87,13 @@ a.navbar:visited {
   color: inherit;
 }
 /* 
+  when navbar links are hovered 
+*/
+a.navbar:hover {
+  font-size: 32px;
+  color: #FF1CC0; 
+}
+/* 
     iframe style 
 */
 iframe {
