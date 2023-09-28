@@ -64,19 +64,19 @@ div {
 */
 .navbar ul {
   list-style: none;
-  width: 500px;
+  width: 1000px;
   margin: 0 auto;
   padding: 0;
   text-align: right;
+  border-bottom: 1px solid #FF1CC0;
 }
 .navbar li {
-  width: 150 px;
-  border-right: 1px solid #6c80ff;
-  /* 
-        Show the navbar elements next to each other instead of on top of each 
-        other. 
-  */
-  padding: 10px;
+  font-size: 28px;
+  font-family: "Verdana", sans-serif;
+  color: #6c80ff;
+  font-weight: bold;
+  width: 400 px;
+  padding-left: 12px;
   display: inline-block;
   line-height: 40px;
 }
