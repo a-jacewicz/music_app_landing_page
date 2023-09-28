@@ -69,6 +69,17 @@ div {
   padding: 0;
   text-align: right;
 }
+.navbar li {
+  width: 150 px;
+  border-right: 1px solid #6c80ff;
+  /* 
+        Show the navbar elements next to each other instead of on top of each 
+        other. 
+  */
+  padding: 10px;
+  display: inline-block;
+  line-height: 40px;
+}
 /* 
     iframe style 
 */
