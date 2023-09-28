@@ -76,9 +76,15 @@ div {
   color: #6c80ff;
   font-weight: bold;
   width: 400 px;
-  padding-left: 12px;
+  padding-left: 16px;
   display: inline-block;
-  line-height: 40px;
+  line-height: 40px
+}
+/* 
+  prevents navbar links from changing after being visited 
+*/ 
+a.navbar:visited {
+  color: inherit;
 }
 /* 
     iframe style 
