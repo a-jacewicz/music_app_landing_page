@@ -61,38 +61,36 @@ div {
 }
 /* 
   nav bar style 
+  code from: https://jsfiddle.net/ayoisaiah/Lr9nadmw/ 
+             https://freshman.tech/flexbox-navbar/ 
 */
-.navbar ul {
-  list-style: none;
-  width: 1000px;
-  margin: 0;
-  padding-top: 50;
-  margin-top: 20;
-  text-align: right;
-  float: right;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.navbar li {
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
   font-size: 28px;
   font-family: "Verdana", sans-serif;
   color: #6c80ff;
   font-weight: bold;
-  width: 400 px;
-  padding-left: 16px;
-  display: inline-block;
-  line-height: 40px
 }
-/* 
-  prevents navbar links from changing after being visited 
-*/ 
-a.navbar:visited {
-  color: inherit;
-}
-/* 
-  when navbar links are hovered 
-*/
-a.navbar:hover {
+/* .nav-item:hover {
+  background-color: white;
+} */
+.nav-item:hover a {
   font-size: 32px;
-  color: #FF1CC0; 
+  color: #FF1CC0;
 }
 /* 
     iframe style 
@@ -103,9 +101,15 @@ iframe {
   border: solid;
 }
 /*
-  logo image div 
+  logo image style 
+  code from: https://jsfiddle.net/ayoisaiah/Lr9nadmw/ 
+             https://freshman.tech/flexbox/ 
 */ 
 #logo {
-  width: 12%; 
+  width: 12%;
   height: auto;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
 }
