@@ -96,6 +96,9 @@ iframe {
   height: 100%;
   border: solid;
 }
+/* a iframe {
+  pointer-events : none;
+} */
 /*
   logo image style 
   code from: https://jsfiddle.net/ayoisaiah/Lr9nadmw/ 
