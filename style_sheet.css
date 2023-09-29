@@ -116,3 +116,10 @@ iframe {
   width: 50%;
   height: auto;
 }
+/* 
+  premium chart 
+*/
+#premium {
+  width: 44%; 
+  height: auto;
+}
