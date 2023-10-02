@@ -129,11 +129,20 @@ iframe {
   font-weight: bold;
   text-align: center;
 }
-/* 
+/*
   body text in flexbox 
 */
 .flex-body {
   font-size: 18px;
   color: white;
   font-family: "Trebuchet MS", sans-serif;
+}
+/*
+  mockups style 
+*/
+.mockup {
+  width: 64%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
