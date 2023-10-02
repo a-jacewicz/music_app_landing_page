@@ -1,0 +1,80 @@
+<!-- 
+    COMP333 HW1 Second Page HTML 
+    Aleks Jacewicz
+-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Testimonials & Frequently Asked Questions</title>
+    <link rel="stylesheet" href="style_sheet.css">
+</head> 
+
+<body>
+    </div>
+    <img id = "logo"
+        src = "C:\Users\khent\Code\music_app_landing_page\logo.png" 
+        alt = "Music app logo"
+    />
+    <p>[insert logo top left and nav bar top right]</p>
+    <p>[insert iframe w/ picture link to fake add]</p>
+    <div style="text-align: center;"> 
+        <h1>Enter, Rate, Review <br>Your Favorite Music!</h1>
+        <h2>Share your love of music <br>and discover new music to enjoy! </h2> 
+        <p>[insert get started button]</p>
+    </div> 
+    <div class="testimonial">
+        <h2>Testimonials</h2> 
+        <h3>User 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. Vulputate enim nulla aliquet porttitor. Nisi est sit 
+            amet facilisis magna etiam tempor orci. Elit ut aliquam purus sit amet luctus venenatis 
+            lectus. Nibh sit amet commodo nulla.</p>
+        <h3>User 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. Vulputate enim nulla aliquet porttitor. Nisi est sit 
+            amet facilisis magna etiam tempor orci. Elit ut aliquam purus sit amet luctus venenatis 
+            lectus. Nibh sit amet commodo nulla.</p>
+        <h3>User 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. Vulputate enim nulla aliquet porttitor. Nisi est sit 
+            amet facilisis magna etiam tempor orci. Elit ut aliquam purus sit amet luctus venenatis 
+            lectus. Nibh sit amet commodo nulla.</p>
+    </div>
+
+    <div class="FAQ">
+        <!-- 
+    I want to make this work so that when you click on a question, the answer "opens", thinking I'm going to do this
+    in a way similar to the one described here 
+    https://stackoverflow.com/questions/71743257/faqs-section-individual-toggle-incorrectly-opening-all-parts-on-click
+-->
+        <h2>Frequently Asked Questions About [APP NAME]</h2>
+        <p> Question Number 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. </p>
+        <p> Answer Number 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua.</p>
+        <p> Question Number 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua.</p>
+        <p> Answer Number 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua.</p>
+        <p> Question Number 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua.</p>
+        <p> Answer Number 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <div>
+        <h2>Further Information</h2>
+        <p>Go back to our main page [insert link to top of main page] and see more information about 
+            features [insert link to features section of main page], the timeline of development for 
+            [APP NAME]  [insert link to timeline section of main page] and our pricing model [insert link to premium section of main page]
+        </p>
+        <p>[insert get started button]</p>
+    </div>
+    <p style="font-size: small;">This site was designed and published as part of the COMP 333 Software Engineering class at 
+        Wesleyan University. This is a training exercise.</p>
+</body>
+</html>
