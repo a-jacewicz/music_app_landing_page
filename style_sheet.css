@@ -127,3 +127,12 @@ iframe {
   font-weight: bold;
   text-align: center;
 }
+/* 
+  mockups style 
+*/
+.mockup {
+  width: 64%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
