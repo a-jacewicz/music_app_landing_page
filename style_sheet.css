@@ -108,7 +108,7 @@ iframe {
              https://freshman.tech/flexbox/ 
 */ 
 #logo {
-  width: 12%;
+  width: 144px;
   height: auto;
   vertical-align: middle;
   display: flex;
