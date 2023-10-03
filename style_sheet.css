@@ -1,6 +1,6 @@
 /* 
     COMP333 HW1 STYLE SHEET 
-    Kelleigh Entrekin  
+    Kelleigh & Aleks   
 */ 
 
 /* 
@@ -56,7 +56,6 @@ h3 {
     div style 
  */
 div {
-  /* border-top: 5px solid #4A0074; */
   border-bottom: 5px solid #4A0074;
 }
 /* 
@@ -97,7 +96,7 @@ div {
 iframe {
   width: 100%;
   height: 100%;
-  border: solid;
+  border: none;
 }
 /*
   logo image style 
@@ -111,4 +110,90 @@ iframe {
   display: flex;
   flex-direction: column;
   display: inline-block;
+}
+/* 
+  ad banner style 
+*/ 
+#ad_banner {
+  width: 60%;
+  min-width: 300px;
+  aspect-ratio: 7/1.8;
+}
+/*
+  time line style 
+*/ 
+#timeline {
+  width: 50%; 
+  min-width: 360px;
+  height: auto;
+}
+/* 
+  flexbox for feature items 
+*/
+.flexbox ul {
+  display: flex; 
+  flex-wrap: wrap;
+  list-style: none;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.flexbox li {
+  display: flex; 
+  list-style: none;
+  flex-wrap: wrap;
+  width: 350px;
+  padding: 10px;
+  display: inline-block;
+  line-height: auto;
+}
+/* 
+  picture icons in flexbox 
+*/
+.flex-icon {
+  width: 270px;
+  height: auto;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  display: inline-block; 
+  padding: 10px 15px;
+  align-items: center;
+}
+/* 
+  title in flexbox 
+*/
+.flex-title {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 32px;
+  font-family: "Verdana", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+/*
+  body text in flexbox 
+*/
+.flex-body {
+  font-size: 18px;
+  color: white;
+  font-family: "Trebuchet MS", sans-serif;
+}
+/*
+  mockups style 
+*/
+.mockup {
+  width: 64%;
+  min-width: 300px;
+  height: auto;
+}
+/*
+  button style 
+*/
+.button {
+  width: 16%;
+  min-width: 160px;
+  height: auto;
+  padding-bottom: 16px; 
 }
