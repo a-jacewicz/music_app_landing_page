@@ -205,3 +205,20 @@ iframe {
   height: auto;
   padding-bottom: 16px; 
 }
+
+#div1 {
+  width: 30%;
+  min-width: 200px;
+  height: auto;
+  padding-top : 16px;
+  padding-bottom : 16px;
+}
+
+
+#div2 {
+  width: 40%;
+  min-width: 200px;
+  height: auto;
+  padding-top : 16px;
+  padding-bottom : 16px;
+}
