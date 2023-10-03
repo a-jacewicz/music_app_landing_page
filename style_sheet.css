@@ -84,3 +84,12 @@ iframe {
   width: 12%; 
   height: auto;
 }
+/*
+  button style 
+*/
+.button {
+  width: 16%;
+  min-width: 160px;
+  height: auto;
+  padding-bottom: 16px; 
+}
