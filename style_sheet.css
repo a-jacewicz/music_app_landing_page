@@ -119,6 +119,14 @@ iframe {
   min-width: 300px;
   aspect-ratio: 7/1.8;
 }
+/* 
+  premium chart 
+*/
+#premium {
+  width: 44%; 
+  min-width: 360px;
+  height: auto;
+}
 /*
   time line style 
 */ 
