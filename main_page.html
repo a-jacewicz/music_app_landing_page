@@ -14,12 +14,19 @@
 </head>
 
 <body>
-    </div>
-    <img id = "logo"
-        src = "C:\Users\khent\Code\music_app_landing_page\logo.png" 
-        alt = "Music app logo"
-    />
-    <p>[insert logo top left and nav bar top right]</p>
+    <nav class="navbar">
+        <img id="logo" 
+            src="logo.png" 
+            alt="Music App Logo"
+        >
+        <ul class="nav-links">
+          <li class="nav-item"><a href="main_page.html#about">About</a></li>
+          <li class="nav-item"><a href="main_page.html#features">Features</a></li>
+          <li class="nav-item"><a href="main_page.html#timeline">Timeline</a></li>
+          <li class="nav-item"><a href="main_page.html#premium">Premium</a></li>
+          <li class="nav-item"><a href="main_page.html#info">Further Information</a></li>
+        </ul>
+    </nav>
     <center>
         <iframe style="margin-top: 20px;" scrolling="no" 
             id="ad_banner"
@@ -38,7 +45,7 @@
         </a>
     </div> 
     <div>
-        <h2>About</h2> 
+        <h2 id="about">About</h2> 
         <h3>M -- The Lovely Music App</h3>
         <p>Music speaks to one's soul, pulls at their heart strings, and puts words to emotions that 
             are impossible to describe. M creates a world where the melodies and rythms of people's 
@@ -60,7 +67,7 @@
         </p>
     </div>
     <div>
-        <h2>Features</h2> 
+        <h2 id="features">Features</h2>
         <h3>Features</h3>
         <div id="flexbox" class="flexbox" style="border-bottom: none;">
             <ul>
@@ -117,11 +124,11 @@
             <p>The image above shows a mockup of the page to view submissions created by all users.<br> The 
                 table is sectioned into song title, artist name, star rating, and review.<br> The edit and 
                 delete buttons only appear on submissions that are your own. 
-        </p>
+            </p>
         </center>
     </div>
     <div>
-        <h2>Timeline</h2>
+        <h2 id="timeline">Timeline</h2>
         <center>
             <img id="timeline"
                 src="timeline.png"
@@ -130,7 +137,7 @@
         </center>
     </div> 
     <div>
-        <h2>Premium</h2>
+        <h2 id="premium">Premium</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
             ut labore et dolore magna aliqua. Vulputate enim nulla aliquet porttitor. Nisi est sit 
             amet facilisis magna etiam tempor orci. Elit ut aliquam purus sit amet luctus venenatis 
@@ -138,7 +145,7 @@
         <p>[insert chart showing prices and features comparing free vs premium version]</p>
     </div>
     <div>
-        <h2>Further Information</h2>
+        <h2 id="info">Further Information</h2>
         <p>Hear people's testimonials [insert link to testimonial section on second page] from those 
             who love [insert app name] and have your burning questions answered in our FAQ section 
             [insert link to FAQ section on second page]. 
