@@ -116,8 +116,9 @@ iframe {
   ad banner style 
 */ 
 #ad_banner {
-  width: 58%;
+  width: 60%;
   min-width: 300px;
-  height: auto;
+  height: 193px;
+  min-height: 40px;
   object-fit: contain;
 }
