@@ -119,4 +119,5 @@ iframe {
   width: 58%;
   min-width: 300px;
   height: auto;
+  object-fit: contain;
 }
