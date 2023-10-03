@@ -184,6 +184,13 @@ iframe {
   width: 64%;
   min-width: 300px;
   height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+}
+/*
+  button style 
+*/
+.button {
+  width: 16%;
+  min-width: 160px;
+  height: auto;
+  padding-bottom: 16px; 
 }
