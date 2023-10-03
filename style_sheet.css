@@ -87,9 +87,6 @@ div {
   color: #6c80ff;
   font-weight: bold;
 }
-/* .nav-item:hover {
-  background-color: white;
-} */
 .nav-item:hover a {
   font-size: 32px;
   color: #FF1CC0;
