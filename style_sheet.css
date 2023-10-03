@@ -1,0 +1,118 @@
+/* 
+    COMP333 HW1 STYLE SHEET 
+    Kelleigh Entrekin  
+*/ 
+
+/* 
+    background color for the whole page 
+*/ 
+html {background-color: #17222c}
+/* 
+    style for the body  
+*/ 
+body {
+    padding-top: 30px;
+    padding-right: 64px;
+    padding-bottom: 50px;
+    padding-left: 64px;
+}
+/* 
+    style for paragraphs  
+*/ 
+p {
+    font-size: 18px;
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+}
+/*
+    style for the headings 
+*/ 
+/* 
+  title 
+*/ 
+h1 {
+  text-align: center;
+  font-size: 54px;
+  font-family: "Georgia", serif;
+  color: #FF1CC0;		 
+}	
+/* 
+  headers 
+*/ 
+h2 {
+  font-size: 42px; 
+  font-family: "Palatino", serif; 
+  color: #6c80ff; 
+}
+/* 
+  section headers 
+*/ 
+h3 { 
+  font-size: 25px;
+  font-family: "Verdana", sans-serif;
+  color: #B131FA; 
+}
+/* 
+    div style 
+ */
+div {
+  border-bottom: 5px solid #4A0074;
+}
+/* 
+  nav bar style 
+  code from: https://jsfiddle.net/ayoisaiah/Lr9nadmw/ 
+             https://freshman.tech/flexbox-navbar/ 
+*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 28px;
+  font-family: "Verdana", sans-serif;
+  color: #6c80ff;
+  font-weight: bold;
+}
+.nav-item:hover a {
+  font-size: 32px;
+  color: #FF1CC0;
+}
+/* 
+    iframe style 
+*/
+iframe {
+  width: 100%;
+  height: 100%;
+  border: solid;
+}
+/*
+  logo image style 
+  code from: https://jsfiddle.net/ayoisaiah/Lr9nadmw/ 
+             https://freshman.tech/flexbox/ 
+*/ 
+#logo {
+  width: 12%;
+  height: auto;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+}
+/* 
+  ad banner style 
+*/ 
+#ad_banner {
+  width: 50%;
+  height: auto;
+}
