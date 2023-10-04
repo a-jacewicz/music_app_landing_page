@@ -76,6 +76,7 @@ div {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  color: #6c80ff;
 }
 .nav-item a {
   display: inline-block;
