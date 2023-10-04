@@ -32,4 +32,8 @@ shark1.png - shark10.png -- shark pictures used in fake ad website linked in Ifr
 <br>
 We distributed the work on this project 60/40 (Kelleigh/Aleks). <br>
 <br>
-ADD HOW CODE CAN BE RAN 
+To run our code for this project, there are two options. The first of these is to go to the link provided through github pages. 
+<br>
+Here's a link to it! ADD LINK HERE 
+<br>
+On the other hand, you can also clone the repository (if you have access to it), pull all the code from main and then locally look at our website! 
