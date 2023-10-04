@@ -1,0 +1,82 @@
+<!-- 
+    COMP333 HW1 Second Page HTML 
+    Aleks Jacewicz (& Kelleigh E)
+-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Testimonials & Frequently Asked Questions</title>
+    <link rel="stylesheet" href="style_sheet.css">
+</head> 
+
+<body>
+    </div>
+    <img id = "logo"
+        src = "C:\Users\khent\Code\music_app_landing_page\logo.png" 
+        alt = "Music app logo"
+    />
+    <p>[insert logo top left and nav bar top right]</p>
+    <p>[insert iframe w/ picture link to fake add]</p>
+    <div style="text-align: center;"> 
+        <h1>Enter, Rate, Review <br>Your Favorite Music!</h1>
+        <h2>Share your love of music <br>and discover new music to enjoy! </h2> 
+        <p>[insert get started button]</p>
+    </div> 
+    <div class="testimonial">
+        <h2>Testimonials</h2> 
+        <h3> <i> Kelleigh E. </i> </h3>
+        <p>"I just adore M! It's an amazing way to explore new music and connect with other music lovers. <br> 
+         I've discovered a plethora of awesome artists and albums thanks to the ratings and reviews on the site.<br> 
+        It's also a great place to share my own thoughts on music and find people with similarly steller tastes. <br> 
+        I particularly was charmed by the sharks!" 
+        </p>
+        <h3> <i> Aleks J. </i></h3>
+        <p> "M is my one-stop shop for all things music. I can use it to rate and review my favorite songs and albums, <br>
+            discover new artists, and see what other people are listening to. <br>
+            M is an absolute must-have for any music lover!  <br>
+            The landing site for it is also pretty cool, though." 
+        </p>
+        <h3> <i> Sebastian Z. </i></h3>
+        <p> "M is a music rating website that is a veritable treasure trove for any music lover. <br>
+            With its vast database of songs and albums, and its vibrant community of music enthusiasts,  <br>
+            M is the perfect place to discover new music, connect with other listeners, and share your own musical passions." </p>
+        
+    </div>
+
+    <div class="FAQ">
+        <!-- 
+    I want to make this work so that when you click on a question, the answer "opens", thinking I'm going to do this
+    in a way similar to the one described here 
+    https://stackoverflow.com/questions/71743257/faqs-section-individual-toggle-incorrectly-opening-all-parts-on-click
+-->
+<h2>Frequently Asked Questions About M</h2>
+<p> Who is M for? </p>
+<p> M is truly for everyone, from the casual listener who sings along to the car radio on the way to work, to the die hard fan who 
+    spends every weekend checking out their cities live music scene. No taste is too niche - or too specific, for M. 
+</p>
+<p> What makes M special? </p>
+<p> M connects music lovers like no other app, offering a multitude of features that no other service offers [link to features section]
+    It brings innovation and genuine enjoyment of the topic it centers on! There's no way that you'll use it and not fall in love.  
+</p>
+<p> What inspired you to make M? </p>
+<p> M's very existence stems from our love of music, data and connecting those who share these interests. We feel confident that 
+    you'll love our app, and encourage you to check it out. We're excited to see you on M soon! 
+</p>
+    </div>
+
+    <div>
+        <h2>Further Information</h2>
+        <p>Go back to our main page  <a href="https://www.w3schools.com/">TEST</a>  [insert link to top of main page] and see more information about 
+            features [insert link to features section of main page], the timeline of development for 
+            [APP NAME]  [insert link to timeline section of main page] and our pricing model [insert link to premium section of main page]
+        </p>
+        <p>[insert get started button]</p>
+    </div>
+    <p style="font-size: small;">This site was designed and published as part of the COMP 333 Software Engineering class at 
+        Wesleyan University. This is a training exercise.</p>
+</body>
+</html>

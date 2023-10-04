@@ -1,0 +1,172 @@
+<!-- 
+    COMP333 HW1 Main Page HTML 
+    Kelleigh & Aleks  
+-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Music Landing Page</title>
+    <link rel="stylesheet" href="style_sheet.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img id="logo" 
+            src="logo.png" 
+            alt="Music App Logo"
+        >
+        <ul class="nav-links">
+          <li class="nav-item"><a href="main_page.html#about">About</a></li>
+          <li class="nav-item"><a href="main_page.html#features">Features</a></li>
+          <li class="nav-item"><a href="main_page.html#timeline">Timeline</a></li>
+          <li class="nav-item"><a href="main_page.html#premium">Premium</a></li>
+          <li class="nav-item"><a href="main_page.html#info">Further Information</a></li>
+        </ul>
+    </nav>
+    <center>
+        <iframe style="margin-top: 20px;" scrolling="no" 
+            id="ad_banner"
+            src="ad_banner.html" 
+            name="ad_banner" >
+        </iframe>
+    </center>
+    <div style="text-align: center;"> 
+        <h1>Enter, Rate, Review <br>Your Favorite Music!</h1>
+        <h2>Share your love of music <br>and discover new music to enjoy! </h2> 
+        <a href="login_page.html">
+            <img class="button"
+                src="button.png"
+                alt="Get started button."
+            >
+        </a>
+    </div> 
+    <div>
+        <h2 id="about">About</h2> 
+        <h3>M -- The Lovely Music App</h3>
+        <p>Music speaks to one's soul, pulls at their heart strings, and puts words to emotions that 
+            are impossible to describe. M creates a world where the melodies and rythms of people's 
+            lives can be shared for others to find their new favorite song. Users can share their 
+            musical favorites to share with others, or even warn of music that is unworthy of our 
+            precious time. Users can enter and rate a song and leave a review to to spark the fire of 
+            one's musical passion when they discover that new special song. 
+        </p>
+        <h3>Audience</h3>
+        <p>
+            Did you just discover a new song that you must share? Are you trying to discover artist and genres? 
+            Did you just listen to the worst song ever that you must warn others to avoid like the plague? 
+            Than M is for you. M allows you to share your favorite music, or least favorite, and keep track of 
+            songs and artists you enjoy.
+        </p>
+        <p>
+            M is for anyone with a song stuck in their head. If you are an avid music enthusiast who listens to 
+            every genre imaginable, or even if you just listen to this one song, M is for you. 
+        </p>
+    </div>
+    <div>
+        <h2 id="features">Features</h2>
+        <h3>Features</h3>
+        <div id="flexbox" class="flexbox" style="border-bottom: none;">
+            <ul>
+              <li>
+                <img class="flex-icon"
+                    src="enter.png"
+                    alt="Enter icon"
+                >
+                <br>
+                <p class="flex-title" style="color: #FF1CC0;">
+                    ENTER
+                    <br>
+                    <span class="flex-body">Enter song title and artist name.</span>
+                </p>
+              </li>
+              <li>
+                <img class="flex-icon"  
+                    src="rate.png"
+                    alt="Rate icon"
+                > 
+                <br>
+                <p class="flex-title" style="color: #6c80ff;">
+                    RATE
+                    <br>
+                    <span class="flex-body">Rate the song quality.</span>
+                </p>
+              </li>
+              <li>
+                <img class="flex-icon" 
+                    src="review.png"
+                    alt="Review icon"
+                > 
+                <br>
+                <p class="flex-title" style="color: #B131FA;">
+                    REVIEW
+                    <br>
+                    <span class="flex-body">Review what is good and bad.</span>
+                </p>
+              </li>
+            </ul>
+        </div> 
+        <h3>Mockups</h3>
+        <center>
+            <img class="mockup"
+                src="mockup1.png"
+                alt="Mockup of app; inputting information" 
+            >
+            <p>The image above shows a mockup of the page to enter submissions.<br> Users can enter the song 
+                title and artist name, click the star rating, and write a review.</p>
+            <img class="mockup" style="padding-top: 64px;"
+                src="mockup2.png"
+                alt="Mockup of app; viewing submissions" 
+            >
+            <p>The image above shows a mockup of the page to view submissions created by all users.<br> The 
+                table is sectioned into song title, artist name, star rating, and review.<br> The edit and 
+                delete buttons only appear on submissions that are your own. 
+            </p>
+        </center>
+    </div>
+    <div>
+        <h2 id="timeline">Timeline</h2>
+        <center>
+            <img id="timeline"
+                src="timeline.png"
+                alt="Timeline for app development and release."
+            />
+        </center>
+    </div> 
+    <div>
+        <h2 id="premium">Premium</h2>
+        <center>
+            <img id="premium"
+                src="premium.png"
+                alt="Subscriptions Chart"
+            />
+        </center>
+        <p>Users have their choice between three different subcription plans: Basic, Standard, and Premium. 
+            The features and price vary based the respective plan. Basic is free and offers 5 entries 
+            and edits per day and includes ads. Standard is $4 and offers no ads, 25 entres and edits per 
+            day, and a special mystery feature only available to those with a paid subscription. Premium is 
+            $16 and offers so ads, unlimited entries and edits, a special mystery feature, and a special gift 
+            every month for members.</p>
+    </div>
+    <div>
+        <h2 id="info">Further Information</h2>
+        <p>Hear people's testimonials [insert link to testimonial section on second page] from those 
+            who love [insert app name] and have your burning questions answered in our FAQ section 
+            [insert link to FAQ section on second page]. 
+        </p>
+        <center>
+            <a href="login_page.html">
+                <img class="button" style="padding-top: 36px;"
+                    src="button.png"
+                    alt="Get started button."
+                >
+            </a>
+        </center>
+    </div>
+    <p style="font-size: small;">This site was designed and published as part of the COMP 333 Software Engineering class at 
+        Wesleyan University. This is a training exercise.</p>
+</body>
+</html>
