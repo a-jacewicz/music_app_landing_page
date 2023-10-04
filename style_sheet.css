@@ -205,3 +205,50 @@ iframe {
   height: auto;
   padding-bottom: 16px; 
 }
+
+#div1 {
+  width: 30%;
+  min-width: 160px;
+  height: auto;
+  padding-bottom: 16px; 
+  padding-top: 16px; 
+}
+
+
+#div1 {
+  width: 60%;
+  min-width: 280px;
+  height: auto;
+  padding-bottom: 16px; 
+  padding-top: 16px; 
+}
+
+
+#div2 {
+  width: 50%;
+  min-width: 280px;
+  height: auto;
+  padding-bottom: 16px; 
+  padding-top: 16px; 
+}
+
+
+#div3 {
+  width: 36%;
+  min-width: 160px;
+  height: auto;
+  padding-bottom: 16px; 
+  padding-top: 16px; 
+}
+a {
+  color: lightblue;
+}
+a:visited {
+  color: inherit;
+}
+
+hr {
+  height:2px;
+  border-width:0;
+  background-color: #FF1CC0; 
+}
