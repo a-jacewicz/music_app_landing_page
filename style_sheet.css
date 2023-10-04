@@ -208,17 +208,35 @@ iframe {
 
 #div1 {
   width: 30%;
-  min-width: 200px;
+  min-width: 160px;
   height: auto;
-  padding-top : 16px;
-  padding-bottom : 16px;
+  padding-bottom: 16px; 
+  padding-top: 16px; 
+}
+
+
+#div1 {
+  width: 60%;
+  min-width: 280px;
+  height: auto;
+  padding-bottom: 16px; 
+  padding-top: 16px; 
 }
 
 
 #div2 {
-  width: 40%;
-  min-width: 200px;
+  width: 50%;
+  min-width: 280px;
   height: auto;
-  padding-top : 16px;
-  padding-bottom : 16px;
+  padding-bottom: 16px; 
+  padding-top: 16px; 
+}
+
+
+#div3 {
+  width: 36%;
+  min-width: 160px;
+  height: auto;
+  padding-bottom: 16px; 
+  padding-top: 16px; 
 }
