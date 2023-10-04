@@ -34,6 +34,6 @@ We distributed the work on this project 60/40 (Kelleigh/Aleks). <br>
 <br>
 To run our code for this project, there are two options. The first of these is to go to the link provided through github pages. 
 <br>
-Here's a link to it! ADD LINK HERE 
+Here's a link to it! (https://a-jacewicz.github.io/music_app_landing_page/)
 <br>
 On the other hand, you can also clone the repository (if you have access to it), pull all the code from main and then locally look at our website! 
